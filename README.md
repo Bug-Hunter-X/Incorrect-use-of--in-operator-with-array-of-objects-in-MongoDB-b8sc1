@@ -1,0 +1,2 @@
+# Incorrect Use of $in Operator with Array of Objects in MongoDB
+This example demonstrates a common error when using the `$in` operator with an array of objects in MongoDB queries.  The `$in` operator is designed for simple value comparisons, and using it directly with objects may not work as intended. The solution shows the correct way to handle this scenario using the $elemMatch operator.  
